@@ -4,6 +4,16 @@ This project is a functional Minimum Viable Product (MVP) demonstrating a secure
 
 The core idea is to combat fraud from fake trading apps and impersonating advisors by giving investors an undeniable, cryptographic proof (a Transaction ID) that their account was legitimately created by a SEBI-registered broker.
 
+
+## 🚀 Live Demo
+
+You can test a live version of this application hosted on Render:
+
+**[https://crypto-verifier.onrender.com/](https://crypto-verifier.onrender.com/)**
+
+**Note:** The application is hosted on a free service tier. The server may go to sleep after a period of inactivity and could take 30-60 seconds to wake up on the first visit.
+
+
 ## Setup and Installation
 
 Follow these steps to get the application running locally.
