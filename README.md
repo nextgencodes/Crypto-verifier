@@ -54,8 +54,8 @@ Now, we act as the newly registered broker to onboard a new investor.
 1.  Navigate to the Broker Portal: **`http://127.0.0.1:5000/broker`**
 2.  From the dropdown, select your broker identity: **test**.
 3.  Enter the investor's details:
-    *   **Investor PAN ID:** `DEMO1234A`
-    *   **Investor DP ID:** `IN9876543210`
+    *   **Investor PAN ID:** `ABCDE1234D`
+    *   **Investor DP ID:** `213355671899`
 4.  Click the **Register Investor & Generate TxID** button.
 5.  A green box will appear with a unique Transaction ID (TxID). **Copy this entire TxID string** for the next step.
 
@@ -77,7 +77,7 @@ As an investor who has just received a TxID, you can now verify its authenticity
 Finally, let's see what happens if the TxID is fraudulent or has been tampered with.
 
 1.  Go back to the verification page: **`http://127.0.0.1:5000/verify`**
-2.  Paste the same TxID again, but **change just one character**. For example, change the last digit from `5` to `6`.
+2.  Paste the same TxID again, but **change just one character**. For example, change the last digit from `2` to `1`.
 3.  Click the **Verify Registration** button.
 4.  You will now see a **red failure message**. This demonstrates the system's security—even the slightest change invalidates the cryptographic signature, proving that the TxID is not authentic. The system correctly identifies it as either fraudulent or invalid.
 
